@@ -23,13 +23,13 @@ let timeLimitByRound = {
 };
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(window.innerWidth, window.innerHeight);
   textFont("monospace");
   textAlign(CENTER, CENTER);
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(window.innerWidth, window.innerHeight);
 }
 
 function resetWordTimer() {
