@@ -28,6 +28,10 @@ function setup() {
   textAlign(CENTER, CENTER);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function resetWordTimer() {
   wordStartMs = millis();
 }
